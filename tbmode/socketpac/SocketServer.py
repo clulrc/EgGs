@@ -9,7 +9,6 @@ class SocketServer:
         self.serversocket = socket.socket(
             socket.AF_INET,socket.SOCK_STREAM
         )
-
         self.host = socket.gethostname()
         self.port = 12315
 

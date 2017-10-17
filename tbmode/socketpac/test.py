@@ -8,3 +8,4 @@ t.start()
 sc = SocketClient()
 
 sc.connectServer()
+sc.communicat()
